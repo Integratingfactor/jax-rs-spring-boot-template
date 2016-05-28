@@ -1,6 +1,11 @@
 runtime: custom
 vm: true
+module: micro-service-name-here
 threadsafe: true
+handlers:
+- url: /.*
+  script: IGNORED
+  secure: always
 automatic_scaling:
   min_num_instances: 1
   max_num_instances : 1
