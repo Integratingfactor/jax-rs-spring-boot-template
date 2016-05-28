@@ -1,5 +1,7 @@
 runtime: custom
 vm: true
+runtime_config:
+   jdk: openjdk8
 module: micro-service-name-here
 threadsafe: true
 handlers:
